@@ -4100,6 +4100,28 @@
 			)
 		)
 	)
+	(global_label "IO4"
+		(shape input)
+		(at 101.6 67.31 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0fb6063b-6896-49d4-b2ae-352083de6c82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 107.73 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI0_D7"
 		(shape input)
 		(at 228.6 69.85 180)
@@ -4496,28 +4518,6 @@
 			)
 		)
 	)
-	(global_label "IO5"
-		(shape input)
-		(at 101.6 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5376ac94-4cf7-4413-9e59-df1cfa6c5bb6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.73 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "IO23"
 		(shape input)
 		(at 254 69.85 0)
@@ -4892,7 +4892,7 @@
 			)
 		)
 	)
-	(global_label "IO4"
+	(global_label "IO5"
 		(shape input)
 		(at 101.6 64.77 0)
 		(fields_autoplaced yes)
@@ -4902,7 +4902,7 @@
 			)
 			(justify left)
 		)
-		(uuid "940b7e85-1afa-4ecb-86ab-090e59dbf599")
+		(uuid "91de9a40-a6ee-40af-b0c8-69d02fde7bda")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 107.73 64.77 0)
 			(effects
